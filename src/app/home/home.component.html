@@ -1,0 +1,38 @@
+<div class="home">
+    <section class="how-to-find">
+      <h2>Comment trouver mon artisan ?</h2>
+      <ol>
+        <li>
+          <strong>1. Choisir la catégorie d'artisanat</strong>
+          <p>Choisissez une catégorie d'artisanat dans le menu.</p>
+        </li>
+        <li>
+          <strong>2. Choisir un artisan</strong>
+          <p>Choisissez un artisan parmi les différents profils proposés.</p>
+        </li>
+        <li>
+          <strong>3. Contacter l'artisan</strong>
+          <p>Contactez l'artisan via le formulaire de contact.</p>
+        </li>
+        <li>
+          <strong>4. Réponse sous 48h</strong>
+          <p>Vous recevrez une réponse sous 48 heures.</p>
+        </li>
+      </ol>
+    </section>
+  
+    <section class="featured-artisans">
+      <h3>Les trois artisans du mois</h3>
+      <div class="artisan-card" *ngFor="let artisan of featuredArtisans">
+        <h4>{{ artisan.name }}</h4>
+        <div class="rating">
+          <span *ngFor="let star of [].constructor(artisan.rating); let i = index"> 
+            &#9733;
+          </span>
+        </div>
+        <p><strong>Spécialité:</strong> {{ artisan.specialty }}</p>
+        <p><strong>Localisation:</strong> {{ artisan.location }}</p>
+      </div>
+    </section>
+  </div>
+  

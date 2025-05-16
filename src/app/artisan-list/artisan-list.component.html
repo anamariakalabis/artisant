@@ -1,0 +1,14 @@
+
+<div class="artisan-list">
+    <div class="artisan-card" *ngForOf="let artisan of artisans" (click)="goToProfile(artisan)">
+      <h4>{{ artisan.name }}</h4>
+      <div class="rating">
+        <span *ngForOf="let star of [].constructor(artisan.rating); let i = index">
+          &#9733;
+        </span>
+      </div>
+      <p><strong>Spécialité:</strong> {{ artisan.specialty }}</p>
+      <p><strong>Localisation:</strong> {{ artisan.location }}</p>
+    </div>
+  </div>
+  

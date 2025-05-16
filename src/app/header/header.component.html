@@ -1,0 +1,30 @@
+
+ 
+<header class="header">
+    
+    <a class="logo" href="/">
+      <img src="Logo.png" alt="Logo" class="Logo"/>
+    </a>
+  
+   
+    <nav class="menu">
+      <ul>
+        <li><a routerLink="/batiment">Bâtiment</a></li>
+        <li><a routerLink="/services">Services</a></li>
+        <li><a routerLink="/fabrication">Fabrication</a></li>
+        <li><a routerLink="/alimentation">Alimentation</a></li>
+      </ul>
+    </nav>
+  
+   
+    <div class="search">
+      <input 
+        type="text" 
+        placeholder="Rechercher un artisan..." 
+        [(ngModel)]="searchQuery" 
+        (input)="onSearch()" 
+      />
+      <button (click)="onSearch()">Search</button>
+    </div>
+  </header>
+  

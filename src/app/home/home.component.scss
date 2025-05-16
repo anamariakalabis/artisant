@@ -1,0 +1,29 @@
+.home {
+    padding: 20px;
+  }
+  
+  .how-to-find {
+    margin-bottom: 30px;
+  }
+  
+  .how-to-find ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  .featured-artisans {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .artisan-card {
+    border: 1px solid #cd2c2e;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .rating {
+    color: #f1f8fc;
+  }
+  

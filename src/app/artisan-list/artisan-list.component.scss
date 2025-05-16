@@ -1,0 +1,20 @@
+
+
+.artisan-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .artisan-card {
+    border: 1px solid #cd2c2e;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .rating {
+    color: #f1f8fc;
+  }
+  

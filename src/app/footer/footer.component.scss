@@ -1,0 +1,39 @@
+/* footer.component.css */
+.footer {
+    background-color:#0074c7;
+    color: #f1f8fc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .legal-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .legal-menu li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .legal-menu a {
+    text-decoration: none;
+    color: #f1f8fc;
+    font-size: 14px;
+  }
+  
+  .legal-menu a:hover {
+    color: 
+    #82b864; 
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
